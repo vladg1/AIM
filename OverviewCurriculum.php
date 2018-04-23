@@ -1,12 +1,11 @@
 
 <html>
 <?php 
-$page_title = 'Overview';
+$page_title = 'HomePage';
 ?>
 	<head>
 		<title><?php echo $page_title; ?></title>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<link href="css/presence.css" rel="alternate stylesheet" type="text/css" />
 	</head>
 	<body>
 		<header>
@@ -31,13 +30,12 @@ $page_title = 'Overview';
 				</div> 
 				<div id="left-pane">
 
-						<a id="toggleButton" onclick="toggleText();" href="javascript:void(0);">PCS1</a><a href="OverviewPCS1Class.php"><i class="fas fa-arrow-alt-circle-right"></i></a>
+						<a id="toggleButton" onclick="toggleText();" href="javascript:void(0);">PCS1</a>
 						<div>
 						    <p id="textArea"></p>
-
 						</div>
 
-						<a id="toggleButton2" onclick="toggleText2();" href="javascript:void(0);">FIS1</a><a href="OverviewFIS1Class.php"><i class="fas fa-arrow-alt-circle-right"></i></a>
+						<a id="toggleButton2" onclick="toggleText2();" href="javascript:void(0);">FIS1</a>
 						<div>
 						    <p id="textArea2"></p>
 						</div>

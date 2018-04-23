@@ -1,7 +1,7 @@
 
 <html>
 <?php 
-$page_title = 'Home';
+$page_title = 'Home - administration';
 ?>
 	<head>
 		<title><?php echo $page_title; ?></title>
@@ -24,15 +24,13 @@ $page_title = 'Home';
 
 			
 			<div id="content-placeholder">
-				<?php
-					include('./pages/home.txt')
-				?>
+				<h1><b>Student List</b></h1>
 			</div>
 
 
 
 			<div id="left-pane">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.3584497238085!2d5.47637181520496!3d51.45157492260525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d92211f6fa13%3A0xbcf4b02cb0dee79!2sFontys!5e0!3m2!1snl!2snl!4v1519123513206" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe id="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0HsTlNu7dpMFb5teGQT6VNwmmwdIPD9J5mSp3J_JrrqkUwJ-0uO0VWLirshvN5yhNm8vDEJ9GJgjg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="800px" height="500px" frameborder="2" style="border:2"></iframe>
 			</div>
 				
 
@@ -46,9 +44,9 @@ $page_title = 'Home';
 		</div>
 
 
-		<div id="bottom-pane">
+		<div id="bottom-pane" style="padding-left: 400px;">
 
-				<?php include('pages/navBar.html') ?>
+				<?php include('pages/navBarAdministration.html') ?>
 
 		</div>
 	

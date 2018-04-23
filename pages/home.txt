@@ -1,2 +1,6 @@
 <h1>Welcome user </h1>
 <h2>Pluff scheduler : </h2>
+
+
+	else if (document.getElementById("demo").style.color == "green";) {document.getElementById("demo").style.color = "red";}
+

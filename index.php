@@ -4,15 +4,16 @@
 	<title></title>
 </head>
 <body>
-			<a href="./HomePageTeacher.php"><button id="login">LogIn</button></a>
+			<a href="./HomePageTeacher.php"><button id="login">LogIn as a Teacher</button></a>
+						<a href="./HomePageTeacher.php"><button id="login">LogIn as a Student</button></a>
+									<a href="./BeforeHomePageAdministration.php"><button id="login">LogIn as a Administration</button></a>
+												<a href="./HomePageTeacher.php"><button id="login">LogIn as a Curriculum</button></a>
+
+
+
+
+
 			<link href="css/style.css" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
 
 			<ul id="TeacherOverview">
 			  <li id="TeacherOverviewlist"><span id="TeacherOverviewA">PCS1</span> </li>

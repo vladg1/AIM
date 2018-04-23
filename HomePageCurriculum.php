@@ -1,7 +1,7 @@
 
 <html>
 <?php 
-$page_title = 'Home';
+$page_title = 'HomedsPage';
 ?>
 	<head>
 		<title><?php echo $page_title; ?></title>
